@@ -19,7 +19,7 @@ then go to vim and run
      - [power10k theme](https://github.com/romkatv/powerlevel10k.git)
      - [autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
      - [syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting.git)
-     - [fuzzyfinder]([https://](https://github.com/junegunn/fzf.git))
+     - [fuzzyfinder](https://github.com/junegunn/fzf.git)
 1. (commented now) 🐍 [miniforge installation](https://github.com/conda-forge/miniforge) TODO: change this to use mamba for mac m1
 2. 🎵 [poetry](https://python-poetry.org/): better python packaging and dependency manager
 3. 🧬 [`antigen`](https://github.com/zsh-users/antigen): a `zsh` plugin manager
