@@ -29,6 +29,10 @@ then go to vim and run
     - ⌨️ `vimrc`: a default configuration for `vim` with [vundle](https://github.com/VundleVim/Vundle.vim.git) and ♠️ [onedark theme](https://github.com/joshdick/onedark.vim)
     - 📊 `matplotlibrc`: a default configuration for the python `matplotlib` library
 
+6. install ical
+7. I prefer spectacle
+9. install obsidian for papers
+
 # Reference
 This is an experimental extention of [setup](https://github.com/perretv/setup) repo from my coleague Valentin Perret.
 
