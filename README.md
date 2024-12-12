@@ -21,17 +21,23 @@ then go to vim and run
      - [syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting.git)
      - [fuzzyfinder](https://github.com/junegunn/fzf.git)
 1. (commented now) 🐍 [miniforge installation](https://github.com/conda-forge/miniforge) TODO: change this to use mamba for mac m1
-2. 🎵 [poetry](https://python-poetry.org/): better python packaging and dependency manager
-3. 🧬 [`antigen`](https://github.com/zsh-users/antigen): a `zsh` plugin manager
-4. ✍️ `Vundle`: a plugin manager for `vim`
-5.  configurations:
+  - conda create --name myenv python=3.12 --yes
+  - conda activate myenv
+2. conda install -c apple tensorflow-deps --yes
+3. pip install -r requirements.txt --no-cache-dir
+4. 🎵 [poetry](https://python-poetry.org/): better python packaging and dependency manager
+5. 🧬 [`antigen`](https://github.com/zsh-users/antigen): a `zsh` plugin manager
+6. ✍️ `Vundle`: a plugin manager for `vim`
+7.  configurations:
     - 🖥 `zshrc`: a default configuration for `zsh`
     - ⌨️ `vimrc`: a default configuration for `vim` with [vundle](https://github.com/VundleVim/Vundle.vim.git) and ♠️ [onedark theme](https://github.com/joshdick/onedark.vim)
     - 📊 `matplotlibrc`: a default configuration for the python `matplotlib` library
 
-6. install ical
-7. I prefer spectacle
-9. install obsidian for papers
+8.  install itsycal
+9.  iterm
+    1.  set profile->keys->key mapping; go to presets and choose normal key bindings for navigating b/f like a normal person :D 
+10. I prefer spectacle
+11. install obsidian for papers
 
 # Reference
 This is an experimental extention of [setup](https://github.com/perretv/setup) repo from my coleague Valentin Perret.
