@@ -4,6 +4,12 @@ Only run the `install.sh` scripts that installs the following:
 chmod +x install.sh
 ./install.sh
 ```
+if install.sh script is executed, you can check enabled plugins in you ~/.zsshrc file: I have enabled:
+```
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting vscode web-search copypath copypath)
+```
+
+
 then go to vim and run
 ```vim
 :source %

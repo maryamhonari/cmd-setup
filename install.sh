@@ -14,7 +14,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/maryamh/.zprofile
     eval "$(/opt/homebrew/bin/brew shellenv)"
     source zsh
-    brew install curl git htop wget hstr
+    brew install curl git htop wget hstr tmux MonitorControl jq
 fi
 
 echo "OS name: ${OSNAME}"
